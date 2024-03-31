@@ -31,7 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import Brainwave from "./projectsImage/brainwave.png";
+import Brainwave from "./projectsImage/Brainwave.png";
 import fitnees from "./projectsImage/fitnees.png";
 import joCompany from "./projectsImage/joCompany.png";
 import portfolio from "./projectsImage/portfolio.png";
