@@ -56,7 +56,7 @@ const Contact = () => {
         to_email: 'yamn.joha.work@gmail.com',
         message: form.message,
       },
-      'EdGC0nDCdYTJ0O_nX'
+      'KOyRMyMjohQ5ZaB3g'
       )
       .then(() => {
         seetLoading(false);
