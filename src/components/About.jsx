@@ -42,11 +42,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm skilled softwaer developer with experience in JavaScript and C#,
-        and experience in frameworks like React, Three.js and .Net for C#,
-        I'm quick learner and collaborate colsely with clients to create efficient,
-        scalable ans user-friendly solutions that solve real-world problems. Let's work 
-        together to bring your ideas to life.
+        Hello! I'm Yamen, a passionate <b> Front-End Developer specializing in React.js.</b> <br />
+        I have extensive experience in building interactive and modern web applications using
+        the latest technologies and tools. <br /> <br />
+        In addition to React.js, I am proficient in a range
+        of programming languages and frameworks, like:
+        <b> C# and .NET,  SCSS,  jQuery,  Three.js. </b> <br /> <br />
+        I am dedicated to delivering exceptional and innovative software solutions,
+        with a focus on enhancing user experience and achieving client goals efficiently.
+        I thrive on being part of challenging projects that add significant value, and I look 
+        forward to collaborating with creative teams to achieve outstanding results.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -40,6 +40,7 @@ import Valon from "./projectsImage/Valon.png";
 import expenseTracker from "./projectsImage/expenseTracker.png";
 
 import freelancer from "./freelancer.png";
+import unifiSolutions from "./unifi-solutions-icon.png"
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   travelCamp,
   Valon,
   expenseTracker,
-  preview
+  preview,
+  unifiSolutions
 };

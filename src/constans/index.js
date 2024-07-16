@@ -27,6 +27,7 @@ import {
   portfolio,
   Valon,
   expenseTracker,
+  unifiSolutions
 } from "../assets";
 
 export const navLinks = [
@@ -50,15 +51,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "React js Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Animation Appliactions",
     icon: mobile,
   },
   {
-    title: ".NET Developer",
+    title: "Modern Web Applications",
     icon: backend,
   },
   {
@@ -124,11 +125,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "React Developer",
+    company_name: "Unifiy solutions",
+    icon: unifiSolutions,
+    iconBg: "#d9d9fc",
+    date: "May 2024 - Present",
+    points: [
+    "Created efficient and effective software solutions to meet client requirements and enhance user experience",
+    "Built and maintained user interfaces using React.js (MUI), ensuring a seamless and intuitive user experience",
+    "Improved website performance and speed by optimizing code, implementing best practices. ",
+    "Created comprehensive documentation for codebases, facilitating easier understanding and maintenance for current and future team members",
+    "Worked closely with team members, including designers, back-end developers, and project managers.",
+    ],
+  },
+  {
     title: "Web Developer",
     company_name: "Freelancer",
     icon: freelancer,
-    iconBg: "#383E56",
-    date: "March 2022 - Present",
+    iconBg: "#282E6E",
+    date: "March 2022 - May 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -208,6 +223,10 @@ const projects = [
       {
         name: "javaScript",
         color: "green-text-gradient",
+      },
+      {
+        name: "Jquery",
+        color: "text-red-400"
       },
     ],
     image: portfolio,
