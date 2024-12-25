@@ -27,7 +27,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, p
               <div
                 onClick={() => window.open
                 (source_code_link, "_blank")}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
               </div>
@@ -35,7 +35,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, p
             <div 
               onClick={() => window.open
                 (preview_link, "_blank")}
-              className={`w-10 h-10 cursor-pointer m-3  rounded-full bg-blue-200 ${!preview_link ? "hidden" : ""}`}>
+              className={`w-12 h-12 cursor-pointer m-3  rounded-full bg-blue-200 border-blue-400 ${!preview_link ? "hidden" : ""}`}>
               <img src={preview} alt="preview" className="w-full h-full object-contain" />
             </div>
           </div>

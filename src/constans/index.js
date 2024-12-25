@@ -27,7 +27,8 @@ import {
   portfolio,
   Valon,
   expenseTracker,
-  unifiSolutions
+  unifiSolutions,
+  IPhone
 } from "../assets";
 
 export const navLinks = [
@@ -129,7 +130,7 @@ const experiences = [
     company_name: "Unifiy solutions",
     icon: unifiSolutions,
     iconBg: "#d9d9fc",
-    date: "May 2024 - Present",
+    date: "May 2024 - Dec 2024",
     points: [
     "Created efficient and effective software solutions to meet client requirements and enhance user experience",
     "Built and maintained user interfaces using React.js (MUI), ensuring a seamless and intuitive user experience",
@@ -181,6 +182,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "IPhone 15",
+    description:
+      "Designed seamless animations, interactive scrolling effects, and realistic 3D models for an immersive user experience. Utilized modern web technologies to achieve cutting-edge functionality.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "text-gray-300",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "three js",
+        color: "blue-text-gradient",
+      },  
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },  
+    ],
+    image: IPhone,
+    source_code_link: "https://github.com/YamnJoha1/IPhone",
+    preview_link:"https://iphone15-opal.vercel.app/",
+  },
   {
     name: "Brainwave",
     description:

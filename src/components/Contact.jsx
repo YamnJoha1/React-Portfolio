@@ -16,7 +16,7 @@ const ContactCard = ({icon, description, source_code_link}) => {
      <div onClick={() => window.open
       (source_code_link, "_blank")}
       className={`bg-black-100 py-4 px-3 rounded-2xl sm:w-[280px] w-full ${source_code_link ? "cursor-pointer" : ""}`}>
-          <div className="flex items-center lg:ml-0 lg:justify-center xs:gap-6 xs:justify-normal xs:ml-4">
+          <div className="flex items-center lg:ml-0 lg:justify-center gap-4 xs:gap-6 xs:justify-center xs:ml-4">
             <img src={icon} width={40} height={40} />
             <p>{description}</p>
           </div>
